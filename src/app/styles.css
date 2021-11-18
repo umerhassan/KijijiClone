@@ -1,9 +1,30 @@
 :root {
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Larsseit, Arial, sans-serif;
+  background: rgb(247, 247, 249);
+  margin: 0;
+  padding: 0;
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header, header{
+  background: #1477d4;
+  border-bottom: 0;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .form {
@@ -61,10 +82,83 @@ input[type=number] {
   /*For hiding the arrows on the number field */
 }
 
+/**
+ * Images a now responsive
+ */
+ img {
+	max-width: 100%;
+	height: auto;
+}
+
+/**
+ * Limit the container in
+ * width for big screens
+ */
+.container {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.allResults{
+  padding-bottom: 3rem;
+}
+
+/**
+ * By using display: flex
+ * Logo and nav are in 2 cols
+ * align-items make them
+ * vertically centered
+ * justify-content distribute
+ * horizontal spaces around
+ * and flex-wrap break the
+ * things in two lines in
+ * small screens
+ */
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/**
+ * The followings are to
+ * make things more
+ * clean and airy
+ * and contents centered
+ */
+.main-nav ul {
+
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+/**
+ * Space-around become
+ * Space-between to
+ * distribute space
+ * between the flex-items
+ */
+ @media (min-width: 960px) {
+	.main-header .container {
+		justify-content: space-between;
+	}
+}
+
 .formInnerContainer {
   border: 0.0625rem solid #dedee1;
   border-radius: 0.25rem;
   padding: 0 0.75rem;
+  background-color: white;
+  margin: 1rem;
 }
 
 .results {
@@ -80,7 +174,7 @@ input[type=number] {
 .results img {
   margin: 0;
   width: 8.75rem;
-  height: 100%;
+  height: 6rem;
   overflow: hidden;
   position: relative;
   display: block;
@@ -133,6 +227,7 @@ input[type=number] {
 
   .formInnerContainer {
     padding: 0.5rem 0.75rem;
+    margin: 0rem;
   }
 
   .makeModel select {

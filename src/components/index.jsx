@@ -5,7 +5,7 @@ export default function Results({ data }) {
     <div className="allResults">
       {data.map((obj,index)=> {
         return <div className="results" key={index}>
-          <img src="https://i.ebayimg.com/images/g/nYsAAOSw1e1hj49E/s-l300.jpg" />
+          <img src={obj.img} alt="Sample"/>
           <div className="details">
             <h2>{obj.manufacturer} {obj.model}</h2>
             <h3>${obj.price}</h3>
