@@ -4,19 +4,22 @@
             "manufacturer" : "Porsche",
             "model" : "911",
             "price" : 35000,
-            "km" : 135000
+            "km" : 135000,
+            "img": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_720x406x1_5/dam/pnr/2020/company/Deliveries-Q1-2020/b2-The-current-Porsche-911-model-series-is-still-popular-with-customers.jpg/jcr:content/b2-The%20current%20Porsche%20911%20model%20series%20is%20still%20popular%20with%20customers.jpg"
         },
         { 
             "manufacturer" : "Porsche",
             "model" : "921",
             "price" : 5000,
-            "km" : 155000
+            "km" : 155000,
+            "img": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_720x406x1_5/dam/pnr/2020/company/Deliveries-Q1-2020/b2-The-current-Porsche-911-model-series-is-still-popular-with-customers.jpg/jcr:content/b2-The%20current%20Porsche%20911%20model%20series%20is%20still%20popular%20with%20customers.jpg"
         },
         { 
             "manufacturer" : "Audi",
             "model" : "Z-8",
             "price" : 10000,
-            "km" : 200000
+            "km" : 200000,
+            "img": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_720x406x1_5/dam/pnr/2020/company/Deliveries-Q1-2020/b2-The-current-Porsche-911-model-series-is-still-popular-with-customers.jpg/jcr:content/b2-The%20current%20Porsche%20911%20model%20series%20is%20still%20popular%20with%20customers.jpg"
         },
         { 
             "manufacturer" : "Audi",
